@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Seinfeld Quote Quiz</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>Seinfeld Quote Quiz</h1>
+<h2>Select the Seinfeld character that each of the following quotes is attributed to.</h2>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions"><b>1.</b> "Well the jerk store called, they're running out of you!"</p>
+<input type = "radio" id="mc" name = "question1" value="George"> George <br>
+<input type = "radio" id="mc" name = "question1" value="Jerry"> Jerry <br>
+<input type = "radio" id="mc" name = "question1" value="Elaine"> Elaine <br>
+<input type = "radio" id="mc" name = "question1" value="Kramer"> Kramer <br>
+
+<p class = "questions"><b>2.</b> "Looking at cleavage is like looking at the sun. You don't stare at it. It's too risky. You get a sense of it and then you look away."</p>
+<input type = "radio" id="mc" name = "question2" value="George"> George <br>
+<input type = "radio" id="mc" name = "question2" value="Jerry"> Jerry <br>
+<input type = "radio" id="mc" name = "question2" value="Elaine"> Elaine <br>
+<input type = "radio" id="mc" name = "question2" value="Kramer"> Kramer <br>
+
+<p class = "questions"><b>3.</b> "I need the secure pachage of jockeys. My boys need a house."</p>
+<input type = "radio" id="mc" name = "question3" value="George"> George <br>
+<input type = "radio" id="mc" name = "question3" value="Jerry"> Jerry <br>
+<input type = "radio" id="mc" name = "question3" value="Elaine"> Elaine <br>
+<input type = "radio" id="mc" name = "question3" value="Kramer"> Kramer <br>
+
+<p class = "questions"><b>4.</b> "You know the message you're sending out to the world with these sweatpants? You're telling the world, 'I give up. I can't compete in normal society. I'm miserable, so I might as well be comfortable."</p>
+<input type = "radio" id="mc" name = "question4" value="George"> George <br>
+<input type = "radio" id="mc" name = "question4" value="Jerry"> Jerry <br>
+<input type = "radio" id="mc" name = "question4" value="Elaine"> Elaine <br>
+<input type = "radio" id="mc" name = "question4" value="Kramer"> Kramer <br>
+
+<p class = "questions"><b>5.</b> "Yada, yada, yada..."</p>
+<input type = "radio" id="mc" name = "question5" value="George"> George <br>
+<input type = "radio" id="mc" name = "question5" value="Jerry"> Jerry <br>
+<input type = "radio" id="mc" name = "question5" value="Elaine"> Elaine <br>
+<input type = "radio" id="mc" name = "question5" value="Kramer"> Kramer <br>
+
+<p class = "questions"><b>6.</b> "The sea was angry that day my friends, like an old man trying to send back soup in a deli."</p>
+<input type = "radio" id="mc" name = "question6" value="George"> George <br>
+<input type = "radio" id="mc" name = "question6" value="Jerry"> Jerry <br>
+<input type = "radio" id="mc" name = "question6" value="Elaine"> Elaine <br>
+<input type = "radio" id="mc" name = "question6" value="Kramer"> Kramer <br>
+
+<p class = "questions">7. "When you look annoyed all the time, people think that you're busy."</p>
+<input type = "radio" id="mc" name = "question7" value="George"> George <br>
+<input type = "radio" id="mc" name = "question7" value="Jerry"> Jerry <br>
+<input type = "radio" id="mc" name = "question7" value="Elaine"> Elaine <br>
+<input type = "radio" id="mc" name = "question7" value="Kramer"> Kramer <br>
+
+<p class = "questions"><b>8.</b> "But I don't want to be a pirate!"</p>
+<input type = "radio" id="mc" name = "question8" value="George"> George <br>
+<input type = "radio" id="mc" name = "question8" value="Jerry"> Jerry <br>
+<input type = "radio" id="mc" name = "question8" value="Elaine"> Elaine <br>
+<input type = "radio" id="mc" name = "question8" value="Kramer"> Kramer <br>
+
+<p class = "questions"><b>9.</b> "You're killing independent George!"</p>
+<input type = "radio" id="mc" name = "question9" value="George"> George <br>
+<input type = "radio" id="mc" name = "question9" value="Jerry"> Jerry <br>
+<input type = "radio" id="mc" name = "question9" value="Elaine"> Elaine <br>
+<input type = "radio" id="mc" name = "question9" value="Kramer"> Kramer <br>
+
+<p class = "questions"><b>10.</b> "Did you know that the original title for War and Peace was War, What Is It Good For?"</p>
+<input type = "radio" id="mc" name = "question10" value="George"> George <br>
+<input type = "radio" id="mc" name = "question10" value="Jerry"> Jerry <br>
+<input type = "radio" id="mc" name = "question10" value="Elaine"> Elaine <br>
+<input type = "radio" id="mc" name = "question10" value="Kramer"> Kramer <br>
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+</div>
+</html>
+
+</body>
